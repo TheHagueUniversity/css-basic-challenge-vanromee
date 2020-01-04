@@ -127,6 +127,18 @@ header {
   color: #515151;
 }
 
+.work-experience .btn {
+  color: #DDDCDE;
+  background: #D93337;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.work-experience .btn:hover {
+  background: rgba(140, 141, 158, 0.8);
+}
+
 /* Education
 ------------------------------------*/
 .education {
