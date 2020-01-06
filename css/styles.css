@@ -149,9 +149,36 @@ header {
   padding-bottom: 100px;
 }
 .education p {
-  width: 40%;
+  width: 20%;
 }
 
+/* Travel
+------------------------------------*/
+.travel {
+  background: #D3D2D3;
+  color: #515151;
+}
+
+.gallery {
+  margin: 10px;
+  border: 3px solid #231F20;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 3px solid #D93337;
+}
+
+.gallery img {
+  transition: 1s;
+  width: 100%;
+  height: auto;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+}
 
 /* Contact Info
 ------------------------------------*/
